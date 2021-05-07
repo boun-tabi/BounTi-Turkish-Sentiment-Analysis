@@ -25,7 +25,7 @@ The scores of the finetuned model with BERTurk:
 ## Citation
 You can cite the following paper if you use our work:
 ```
-@INPROCEEDINGS{BounSent,
+@INPROCEEDINGS{BounTi,
   author={Köksal, Abdullatif and Özgür, Arzucan},
   booktitle={2021 29th Signal Processing and Communications Applications Conference (SIU)}, 
   title={Twitter Dataset and Evaluation of Transformers for Turkish Sentiment Analysis}, 
