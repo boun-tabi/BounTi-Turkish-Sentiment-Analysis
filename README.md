@@ -1,5 +1,15 @@
 This repository includes training scripts, the finetuned model, and the dataset for BOUN Turkish Sentiment Analysis.
 
+## Implementation
+You can use the finetuned model with the HuggingFace library. See [the model link](https://huggingface.co/akoksal/bounti?text=Bu+yeme%C4%9Fi+pek+sevmedim) for more details and demo.
+```
+from transformers import pipeline
+bounti = pipeline("sentiment-analysis",model="akoksal/bounti")
+print(bounti("Bu yemeği pek sevmedim"))
+>> [{'label': 'negative', 'score': 0.8012508153915405}]
+```
+
+
 ## Dataset
 You can find the dataset in the data folder with the training, validation, and test splits.
 
